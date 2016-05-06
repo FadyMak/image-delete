@@ -41,10 +41,8 @@ gulp.task('delete-larger', ['jpg', 'png'], function () {
       var jpgFile = path.join(outputDir, fileName + '.jpg')
       var pngFile = path.join(outputDir, fileName + '.png')
       if (fileSize(jpgFile) > fileSize(pngFile)) {
-        console.log('jpg')
         fs.unlinkSync(jpgFile)
       } else {
-        console.log('png')
         fs.unlinkSync(pngFile)
       }
     }
