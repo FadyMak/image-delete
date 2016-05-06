@@ -1,0 +1,20 @@
+{
+  "name": "wes-script",
+  "version": "1.0.0",
+  "description": "https://twitter.com/wesbos/status/728599639826501632",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ImageMagick",
+    "Gulp",
+    "NPM"
+  ],
+  "author": "Fady Makram <fmakram1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gm": "0.0.8"
+  }
+}
